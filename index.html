@@ -9,12 +9,12 @@
    src="https://unpkg.com/@tailwindcss/browser@4">
     </script>
 </head>
-<body class="text-2xl font-light">
+<body class="text-2 font-light">
     <div class="px-8">
     <header>   
         <nav class="flex justify-between items-center py-5">
-            <img src="./images/logo.svg" class="w-20 h-20 bg-blue-500" alt="logo">
-            <div class="flex gap-4 text-2xl font-bold">
+            <img src="./images/logo.svg" class="w-10 h-10" alt="logo">
+            <div class="flex gap-4 text-2">
                 <p>Features</p>
                 <p>Teams</p>
                 <p>Sign In</p>
@@ -35,23 +35,23 @@
     and co-workers.
 </p>
 <form>
-    <input type="mail" placeholder="Enter Your Email...">
-    <button class="bg-blue-500 text-2xl font-bold">Get Started</button>
+    <input type="mail" class="border-1 border-stone: 800 focus:w-[2]" placeholder="Enter Your Email...">
+    <button class="bg-blue-500 text-2 border-1 w-40">Get Started</button>
 </form>
 
        </div>
 
         <div>
-<img src="./images/illustration-1.svg" class="w-100 h-100" alt="">
+<img src="./images/illustration-1.svg" class="w-80 h-80" alt="">
         </div>
     </main>
 
-    <div class="flex justify-between items-center px-8 bg-blue-100 h-100">
-        <div>
+    <div class="flex-wrap px-10 bg-blue-100">
+        <div flex flex-row><br><br>
 <h3 class="text-2xl font-bold">
     Stay productive, wherever you are.
 </h3>
-<p>
+<p py-5>
     never let location be an issue wherever acceing your file, fylo has you <br>
     covered for all of your files storage needs. <br><br>
     Securely share files and folders with friends, family and colleagues for <br>
@@ -59,65 +59,64 @@
 </p>
 <p class="text-2xl font-bold">see how fylo works</p>
 </div>
-<div class=" w-100 h-5px border-width-5px border-style-double border-radius-50%">
+    <div class="flex flex-row">
+        <img src="./images/illustration-2.svg" class="w-80 h-80 relative left-350" alt="illustation2">
+    </div>
+<div class=" border-1 w-90 h-60 border-stone:800 rounded-[1vw] bg-white text-2px relative bottom-35 font-bold p-1">
     "
     Fylo has improved our team productivity by <br>
     an order of magnitude. since making the <br>
     switch our team as become a well-oiled <br>
     collaboration machine. <br><br>
-    <img src="./images/avatar-testimonial.jpg" class="border-width-5px border-style-double border-radius-50%" alt="">
-    <span>Kyle Burtton</span>
-    <span class="position:relative left:40px">Founder & CEO, Huddie</span>
+    <img src="./images/avatar-testimonial.jpg" class= "w-20 h-20 rounded-[5vw]" alt="">
+    <span class="relative bottom-15 left-25">Kyle Burtton</span>
+    <span class="relative bottom-10">Founder & CEO, Huddie</span>
 </div>
 
-               <div class="flex justify-between">
-            <img src="./images/illustration-2.svg" class="w-100 h-100 border-width-5px border-radius-50%"  alt="illustation2">
-        </div>
-    </div>
-    <div class="flex justify-between items-center px-8 bg-blue-400 h-30px">
+            </div>
+    <div class="flex justify-between items-center px-8 bg-sky-800 h-100px text-white p-2">
    <div>
-<p class="text-2xl font-bold  h-50">
-    Get early access today
-</p>
+<p>    Get early access today </p>
+
 <p>
  it only takes a minute to start up and our free starter tier is <br>
  extremely generous. if you have any questions, our support team <br>
  would be happy to help you.
 </p>
-        </div>
+</div>
         <div>
             <form>
-                <input type="mail" placeholder="Email@example.com" class="bg-white"><br><br>
-                <button class="bg-blue-500 text-2xl font-bold">Get Started for free</button>
+                <input type="mail"class="bg-white text-black w-80 border-1 border-stone: 800 focus:w-[2]" placeholder="email@example.com..."><br><br>
+                <button class="bg-blue-500 text-2 w-45 h-10">Get Started for free</button>
             </form>
             </div>
     </div>
   
-    <div class="flex justify-between items-center px-8 bg-blue-900">
+    <div class="flex justify-between items-center px-8 bg-sky-950 text-white">
 
-        <div class="h-50">
-           <img src="./images/logo.svg" alt=""> 
+        <div class="h-50"><br><br>
+           <img src="./images/logo.svg" class="bg-white" alt=""><br>
            <img src="./images/icon-phone.svg" alt="">
-           <span>Phone:1-543-123-5467</span>
+           <span class="relative bottom-5 left-5">Phone:1-543-123-5467</span>
            <img src="./images/icon-email.svg" alt="">
-           <span class="text-2xl font-bold">Email:Example@fylo.com</span>
+           <span class="relative bottom-5 left-5">Email:Example@fylo.com</span>
         </div>
 
-        <div class="text-2xl font-bold">
+        <div class="text-2">
             <p>About Us</p>
             <p>Jobs</p>
             <p>Press</p>
         </div>
-        <div class="text-2xl font-bold">
+        <div class="text-2">
             <p>Contact Us</p>
             <p>Team</p>
             <p>Privacy</p>
         </div>
 
         <div>
-       <img src="./images/facebook.png" alt="facebook icon">
-        <span><img src="./images/x.png" class="w-10 h-10" alt="x icon"></span>
-        </span><img src="./images/instagram.png" class="h-10 w-10" alt="instagram"></span>
+     <img src="./images/facebook.png"class=" w-5 h-5 relative right-50 top-10" alt="facebook icon">
+        <img src="./images/x.png" class="w-5 h-5 relative right-40 top-5" alt="x icon">
+        <img src="./images/instagram.png" class="w-5 h-5 relative right-30" alt="instagram">
         </div>
     </div>
     </body>
